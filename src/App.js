@@ -4,8 +4,10 @@ import Quiz from "./components/Quiz";
 import EndScreen from "./components/EndScreen";
 import { useState } from "react";
 import { GameStateContext } from "./helpers/Contexts";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
+import Contact from "./Contact";
+import About from "./About";
 // ['menu', 'playing', 'finished']
 function App() {
   const [gameState, setGameState] = useState("menu");
@@ -16,6 +18,13 @@ function App() {
     
     <div className="App">
       <NavBar/>
+      <div className="container">
+      <Routes>
+          <Route path="/home" element={<Menu />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
       <GameStateContext.Provider
         value={{
           gameState,
