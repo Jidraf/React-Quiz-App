@@ -5,7 +5,7 @@ const NavBar =() => {
         <div className="navbar">
             <span className="nav-logo">JidQuizApp</span>
             <div className="nav-items">
-                <a href="/home"></a>
+                
                 <a href="/about">About</a>
                 <a href="/contact">Contact Us</a>
             </div>
