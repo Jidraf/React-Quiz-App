@@ -1,9 +1,10 @@
 .navbar {
     height: 60px;
+    width: 1150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
+    background: rgb(3, 55, 99);
 }
 
 .navbar > .nav-logo {

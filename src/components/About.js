@@ -1,16 +1,20 @@
 import React from 'react' 
-
 const About = () => {
   return (
     <div>
-      <h1>THE BEST QUIZ APP</h1>
-      <p>This quiz App is for friends playing to challenge each other after reading in order for them to see who understood more that the other.
-        It can be played by multiple of people:
-        <ul>People in Jobs</ul>
-        <ul>People in studies</ul>
-        <ul>Many other people</ul>
+      <h1>ABOUT MY QUIZ APP</h1>
+      <p>The main goal of this application is to enable users to practice for subjective tests conducted for admissions and recruitment,with focus on Front End Library-React.This quiz application includes inclusive questions to ensure the trainee has a clear understanding of the Library.Benefits of the application is:
+        <ol>
+        <li>Trainee tend to actually read the material</li>
+        <li>Trainee has to write their name to ensure they all attend</li>
+        <li>Trainee are placed in the right attitude for learning</li>
+        <li>Trainee fell more confident to discuss the material</li>
+        </ol>
+      </p>  
+      <p>
+        Fell free to contact me for more information and collaborations.All the details to how you can contact me are in the contact page.
       </p>
-
+      
     </div>
   )
 }
