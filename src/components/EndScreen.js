@@ -1,8 +1,8 @@
 import React from "react";
 import "../App.css";
 import { useContext } from "react";
-import { GameStateContext } from "../helpers/Contexts";
-import { Questions } from "../helpers/Questions";
+import { GameStateContext } from "../database/Contexts";
+import { Questions } from "../database/Questions";
 
 const EndScreen = () => {
   const { score, setScore, setGameState, userName } = useContext(

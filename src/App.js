@@ -3,7 +3,7 @@ import Menu from "./components/Menu";
 import Quiz from "./components/Quiz";
 import EndScreen from "./components/EndScreen";
 import { useState } from "react";
-import { GameStateContext } from "./helpers/Contexts";
+import { GameStateContext } from "./database/Contexts";
 import { Route, Routes} from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import Contact from "./components/Contact";

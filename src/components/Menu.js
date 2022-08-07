@@ -1,6 +1,6 @@
 import "../App.css";
 import { useContext } from "react";
-import { GameStateContext } from "../helpers/Contexts";
+import { GameStateContext } from "../database/Contexts";
 
 
 function Menu() {

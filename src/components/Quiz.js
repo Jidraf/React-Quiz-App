@@ -1,9 +1,9 @@
 import "../App.css";
-import { Questions } from "../helpers/Questions";
+import { Questions } from "../database/Questions";
 import { useState } from "react";
 
 import { useContext } from "react";
-import { GameStateContext } from "../helpers/Contexts";
+import { GameStateContext } from "../database/Contexts";
 
 function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
